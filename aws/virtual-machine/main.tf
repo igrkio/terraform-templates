@@ -21,7 +21,7 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_instance" "terraform-itest-instance" {
   ami             = "${data.aws_ami.ubuntu.id}"
-  instance_type   = "${var.custom_instance_type}"
+  instance_type   = "${var.instance_type}"
 
   tags = {
     Name = "itf-test"
