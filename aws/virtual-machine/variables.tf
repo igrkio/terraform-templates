@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "instance_type" {
-  default = "t2.nano"
+  default = "m1.small"
 }
 
 variable "custom_instance_type" {}
