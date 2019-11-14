@@ -66,7 +66,7 @@ resource "azurerm_virtual_machine" "terraform-test-instance" {
     disable_password_authentication = false
   }
 
-  tags {
+  tags = {
     Name = "test-instance"
     owner = "igrkio@scalr.com"
   }
