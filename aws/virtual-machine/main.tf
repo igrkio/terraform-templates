@@ -27,6 +27,7 @@ resource "aws_instance" "terraform-itest-instance" {
     Name = "itf-test"
     timestamp = "${timestamp()}"
     test-env-owner = "igrkio@scalr.com"
+    owner = "igrkio@scalr.com"
   }
 
   lifecycle {
