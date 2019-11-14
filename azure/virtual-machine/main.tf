@@ -68,5 +68,6 @@ resource "azurerm_virtual_machine" "terraform-test-instance" {
 
   tags {
     Name = "test-instance"
+    owner = "igrkio@scalr.com"
   }
 }
