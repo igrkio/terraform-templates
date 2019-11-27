@@ -2,7 +2,7 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "instance_type" {
+variable "instance_type1" {
   default = "t1.small"
 }
 
