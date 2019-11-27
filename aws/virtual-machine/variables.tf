@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "instance_type" {
-  default = "t1.small"
+  default = "t1.micro"
 }
 
 
