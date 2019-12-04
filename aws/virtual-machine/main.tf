@@ -26,6 +26,7 @@ resource "aws_instance" "terraform-itest-instance" {
   tags = {
     Name = "itf-test"
     owner = "igrkio@scalr.com"
+    xxx = "yyy"
   }
 
   
