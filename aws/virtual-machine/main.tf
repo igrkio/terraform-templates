@@ -31,6 +31,5 @@ resource "aws_instance" "terraform-itest-instance" {
   
   lifecycle {
     ignore_changes = ["tags"]
-    test = "1"
   }
 }
