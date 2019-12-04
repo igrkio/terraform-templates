@@ -28,6 +28,7 @@ resource "aws_instance" "terraform-itest-instance" {
     owner = "igrkio@scalr.com"
   }
 
+  
   lifecycle {
     ignore_changes = ["tags"]
   }
